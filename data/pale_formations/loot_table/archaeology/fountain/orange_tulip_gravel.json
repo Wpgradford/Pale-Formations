@@ -35,6 +35,32 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_block",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 2,
           "conditions": [
@@ -285,6 +311,6 @@
       ]
     }
   ],
-  "random_sequence": "pale_formations:archaeology/fountain/orange_tulip"
+  "random_sequence": "pale_formations:archaeology/fountain/orange_tulip_gravel"
 }
 

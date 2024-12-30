@@ -72,7 +72,7 @@
           },
           "block_entity_modifier": {
             "type": "minecraft:append_loot",
-            "loot_table": "pale_formations:archaeology/fountain/fountain_water"
+            "loot_table": "pale_formations:archaeology/fountain/fountain_water_gravel"
           }
         },
         {

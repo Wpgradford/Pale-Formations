@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/the_heart",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/the_heart"
+      }
+    }
+  ]
+}

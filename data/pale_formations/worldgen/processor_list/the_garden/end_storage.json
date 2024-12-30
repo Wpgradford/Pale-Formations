@@ -1,0 +1,165 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:decorated_pot",
+            "probability": 0.50
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:pale_oak_wood",
+              "probability": 1
+            },
+            "output_state": {
+              "Name": "minecraft:creaking_heart",
+              "Properties": {
+                "axis": "y",
+                "active": "true",
+                "natural": "true"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gray_candle",
+              "probability": 0.15
+            },
+            "output_state": {
+              "Name": "minecraft:gray_candle",
+              "Properties": {
+                "candles": "4",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gray_candle",
+              "probability": 0.3
+            },
+            "output_state": {
+              "Name": "minecraft:gray_candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gray_candle",
+              "probability": 0.4
+            },
+            "output_state": {
+              "Name": "minecraft:gray_candle",
+              "Properties": {
+                "candles": "3",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gray_candle",
+              "probability": 0.5
+            },
+            "output_state": {
+              "Name": "minecraft:gray_candle",
+              "Properties": {
+                "candles": "2",
+                "lit": "true",
+                "waterlogged": "false"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:constant",
+        "value": 3
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "Name": "minecraft:gray_candle",
+                "Properties": {
+                  "lit": "false"
+                }
+              }
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_boiled_egg",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_bookshelf",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_crafters",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_fountain",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_lights",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_pots",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/addition_pots"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_storage",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/addition_storage"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_workstations",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_bales",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_hanging_signs",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_jack_o_lanterns",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_lanterns",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_pumpkins",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/addition_pumpkins"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_shelves",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_sinks",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/addition_sinks"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/addition_window",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/usual_additions"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/hallway",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/hallway_begin"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/hallway_addition",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/lit_candles"
+      }
+    }
+  ]
+}

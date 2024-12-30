@@ -48,6 +48,32 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:potted_open_eyeblossom",
+            "probability": 0.20
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:potted_open_eyeblossom",
+            "probability": 0.10
+          },
+          "output_state": {
+            "Name": "minecraft:potted_dead_bush"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:potted_dead_bush",
             "probability": 0.25
           },
@@ -114,6 +140,19 @@
             "Properties": {
               "candles": "2"
             }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:resin_clump",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
           }
         }
       ]

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 54602541,
+    "separation": 14,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "pale_formations:the_garden",
+      "weight": 1
+    }
+  ]
+}

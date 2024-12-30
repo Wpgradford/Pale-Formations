@@ -22,6 +22,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:clay_ball",
           "weight": 2,
           "conditions": [
@@ -268,61 +281,6 @@
           "type": "minecraft:item",
           "name": "minecraft:paper",
           "weight": 1,
-          "conditions": [
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:time_check",
-                  "value": {
-                    "min": 12542,
-                    "max": 23459
-                  },
-                  "period": 24000
-                },
-                {
-                  "condition": "minecraft:weather_check",
-                  "thundering": true
-                }
-              ]
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biomes": "minecraft:pale_garden"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
-          "weight": 2,
-          "conditions": [
-            {
-              "condition": "minecraft:weather_check",
-              "thundering": false
-            },
-            {
-              "condition": "minecraft:time_check",
-              "value": {
-                "min": -540,
-                "max": 12541
-              },
-              "period": 24000
-            },
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biomes": "minecraft:pale_garden"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
-          "weight": 3,
           "conditions": [
             {
               "condition": "minecraft:any_of",

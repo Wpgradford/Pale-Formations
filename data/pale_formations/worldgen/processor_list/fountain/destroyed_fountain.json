@@ -22,6 +22,19 @@
             "type": "minecraft:append_loot",
             "loot_table": "pale_formations:archaeology/generic/usual_gravel"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:resin_clump",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
         }
       ]
     },
@@ -52,7 +65,7 @@
             },
             "block_entity_modifier": {
               "type": "minecraft:append_loot",
-              "loot_table": "pale_formations:archaeology/fountain/fountain_water"
+              "loot_table": "pale_formations:archaeology/fountain/fountain_water_gravel"
             }
           }
         ]

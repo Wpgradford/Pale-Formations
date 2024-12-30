@@ -1,0 +1,65 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/hallway",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/hallway"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway/hallway_addition",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/lit_candles"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway_ends/end_storage",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/end_storage"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway_ends/end_library",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/end_library"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway_ends/end_prison",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/end_prison"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "pale_formations:the_garden/hallway_ends/end_wet_storage",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "pale_formations:the_garden/end_wet_storage"
+      }
+    }
+  ]
+}
