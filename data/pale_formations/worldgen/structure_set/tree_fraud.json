@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 11528111,
+    "separation": 5,
+    "spacing": 20
+  },
+  "structures": [
+    {
+      "structure": "pale_formations:tree_fraud",
+      "weight": 1
+    }
+  ]
+}

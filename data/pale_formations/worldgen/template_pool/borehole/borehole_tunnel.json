@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:borehole/borehole_tunnel_1",
+        "processors": "pale_formations:borehole/borehole_tunnel_1",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:borehole/borehole_tunnel_2",
+        "processors": "pale_formations:borehole/borehole_tunnel_2_top",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:borehole/borehole_tunnel_3",
+        "processors": "pale_formations:borehole/borehole_tunnel_3",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

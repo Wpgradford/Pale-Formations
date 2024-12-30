@@ -1,0 +1,56 @@
+{
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:generic/trails/generic_trail_straight",
+        "processors": "pale_formations:generic/generic_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:generic/trails/generic_trail_curve_left",
+        "processors": "pale_formations:generic/generic_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:generic/trails/generic_trail_curve_right",
+        "processors": "pale_formations:generic/generic_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:generic/trails/generic_trail_slight_left",
+        "processors": "pale_formations:generic/generic_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:generic/trails/generic_trail_slight_right",
+        "processors": "pale_formations:generic/generic_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

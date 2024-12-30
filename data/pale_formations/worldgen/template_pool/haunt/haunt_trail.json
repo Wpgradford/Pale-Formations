@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_straight",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_turn_right",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_turn_left",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_island",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_cross_right",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:haunt/haunt_trail_cross_left",
+        "processors": "pale_formations:haunt/haunt_trail",
+        "projection": "terrain_matching"
+      },
+      "weight": 2
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

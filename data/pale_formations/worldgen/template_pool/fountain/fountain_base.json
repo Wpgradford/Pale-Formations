@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:fountain/flat_base",
+        "processors": "pale_formations:fountain/fountain_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:fountain/gravel_base",
+        "processors": "pale_formations:fountain/fountain_base",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:fountain/orange_tulip",
+        "processors": "pale_formations:fountain/orange_tulip",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

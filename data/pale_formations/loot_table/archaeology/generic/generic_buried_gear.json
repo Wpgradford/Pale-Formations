@@ -1,0 +1,1106 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "weight": 22,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_stone_tools",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.8
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_leather_armor",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.5
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.3
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_wooden_tools",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_iron_tools",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.4
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.4
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_chainmail_armor",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.4
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.4
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brush",
+          "weight": 64,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.5,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_leather_armor",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.4,
+                "max": 0.7
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_golden_tools",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.6,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_golden_tools",
+          "weight": 38,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.4,
+                "max": 0.8
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_iron_armor",
+          "weight": 38,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.15,
+                "max": 0.5
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_iron_tools",
+          "weight": 32,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 34,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_stone_tools",
+          "weight": 26,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 1.0
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.8
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_stone_tools",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.8,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.4,
+                "max": 0.7
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 0.7
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.5
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_iron_armor",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.4
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:archaeology/generic/generic_iron_tools",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.15,
+                "max": 0.5
+              },
+              "add": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

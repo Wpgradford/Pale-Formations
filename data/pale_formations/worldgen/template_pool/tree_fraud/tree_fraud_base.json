@@ -1,0 +1,41 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:tree_fraud/tree_fraud_base_1",
+        "processors": "pale_formations:tree_fraud/tree_fraud",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:tree_fraud/tree_fraud_base_2",
+        "processors": "pale_formations:tree_fraud/tree_fraud",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:tree_fraud/tree_fraud_base_3",
+        "processors": "pale_formations:tree_fraud/tree_fraud",
+        "projection": "rigid"
+      },
+      "weight": 2
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "pale_formations:tree_fraud/tree_fraud_destroyed",
+        "processors": "pale_formations:tree_fraud/tree_fraud",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

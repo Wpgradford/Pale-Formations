@@ -1,0 +1,81 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:tuff",
+            "probability": 0.21
+          },
+          "output_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:polished_tuff",
+            "probability": 1.0
+          },
+          "output_state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:gravel",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:coarse_dirt"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:capped",
+      "limit": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 9
+      },
+      "delegate": {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:gravel",
+              "probability": 1
+            },
+            "output_state": {
+              "Name": "minecraft:suspicious_gravel",
+              "Properties": {
+                "dusted": "0"
+              }
+            },
+            "block_entity_modifier": {
+              "type": "minecraft:append_loot",
+              "loot_table": "pale_formations:archaeology/borehole/borehole_bottom_gravel"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

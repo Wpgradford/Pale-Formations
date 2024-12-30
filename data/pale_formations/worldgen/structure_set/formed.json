@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 88009642,
+    "separation": 8,
+    "spacing": 36
+  },
+  "structures": [
+    {
+      "structure": "pale_formations:formed",
+      "weight": 1
+    }
+  ]
+}

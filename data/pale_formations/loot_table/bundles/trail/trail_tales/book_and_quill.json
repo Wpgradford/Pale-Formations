@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_dye",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pale_formations:bundles/trail/trail_tales/dye_arrangement",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,290 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "minecraft:pale_garden"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_tulip",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_candle",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_candle",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_concrete_powder",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_banner",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_bundle",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "pale_formations:bundles/fountain/orange_tulip_bundle"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_bundle",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "pale_formations:bundles/fountain/orange_tulip_bundle"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "pale_formations:archaeology/fountain/orange_tulip"
+}
+

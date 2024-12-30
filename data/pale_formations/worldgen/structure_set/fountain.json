@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 35736807,
+    "separation": 4,
+    "spacing": 18
+  },
+  "structures": [
+    {
+      "structure": "pale_formations:fountain",
+      "weight": 1
+    }
+  ]
+}

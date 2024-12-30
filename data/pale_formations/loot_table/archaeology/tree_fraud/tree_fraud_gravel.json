@@ -1,0 +1,652 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "biomes": "minecraft:pale_garden"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_candle",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.05,
+                "max": 0.5
+              },
+              "add": false
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 3,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pale_oak_sapling",
+          "weight": 2,
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_bundle",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "pale_formations:bundles/tree_fraud/tree_fraud_bundle"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:weather_check",
+              "thundering": false
+            },
+            {
+              "condition": "minecraft:time_check",
+              "value": {
+                "min": -540,
+                "max": 12541
+              },
+              "period": 24000
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_bundle",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_contents",
+              "component": "minecraft:bundle_contents",
+              "entries": [
+                {
+                  "type": "minecraft:loot_table",
+                  "value": "pale_formations:bundles/tree_fraud/tree_fraud_bundle"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12542,
+                    "max": 23459
+                  },
+                  "period": 24000
+                },
+                {
+                  "condition": "minecraft:weather_check",
+                  "thundering": true
+                }
+              ]
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "pale_formations:archaeology/tree_fraud/tree_fraud_gravel"
+}
+
