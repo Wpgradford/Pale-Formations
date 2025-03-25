@@ -75,7 +75,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:short_grass",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,7 +91,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fern",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -99,6 +99,22 @@
                 "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leaf_litter",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
               },
               "add": false
             }

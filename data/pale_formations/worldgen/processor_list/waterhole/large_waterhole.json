@@ -22,6 +22,19 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:firefly_bush",
+            "probability": 0.92
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:grass_block",
             "probability": 0.84
           },

@@ -22,19 +22,6 @@
             "type": "minecraft:append_loot",
             "loot_table": "pale_formations:archaeology/generic/usual_gravel"
           }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:resin_clump",
-            "probability": 0.25
-          },
-          "output_state": {
-            "Name": "minecraft:air"
-          }
         }
       ]
     },
@@ -150,6 +137,32 @@
             "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:polished_tuff",
             "probability": 0.11
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:resin_clump",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:firefly_bush",
+            "probability": 0.39
           },
           "output_state": {
             "Name": "minecraft:air"

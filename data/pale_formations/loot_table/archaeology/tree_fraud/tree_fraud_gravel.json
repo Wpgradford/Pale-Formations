@@ -228,8 +228,7 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:dead_bush",
+          "type": "minecraft:loot_table",
           "weight": 2,
           "conditions": [
             {
@@ -250,7 +249,34 @@
                 "biomes": "minecraft:pale_garden"
               }
             }
-          ]
+          ],
+          "value": {
+            "pools": [
+              {
+                "rolls": {
+                  "type": "minecraft:constant",
+                  "value": 1
+                },
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:dead_bush",
+                    "weight": 3
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:short_dry_grass",
+                    "weight": 1
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tall_dry_grass",
+                    "weight": 1
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "type": "minecraft:item",

@@ -224,8 +224,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -264,8 +266,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -304,8 +308,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -344,8 +350,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -384,8 +392,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -429,8 +439,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -474,8 +486,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }
@@ -519,8 +533,10 @@
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:resin",
-                  "pattern": "minecraft:host",
-                  "show_in_tooltip": true
+                  "pattern": "minecraft:host"
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": false
                 }
               }
             }

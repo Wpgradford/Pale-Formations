@@ -54,7 +54,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:egg",
+          "name": "minecraft:brown_egg",
           "weight": 2,
           "functions": [
             {
