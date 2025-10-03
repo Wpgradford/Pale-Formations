@@ -341,7 +341,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_chain",
           "weight": 3,
           "functions": [
             {
@@ -371,7 +371,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:iron_chain",
           "weight": 1,
           "functions": [
             {
