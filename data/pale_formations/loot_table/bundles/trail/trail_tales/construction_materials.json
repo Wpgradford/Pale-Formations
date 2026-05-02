@@ -21,6 +21,7 @@
               "terms": [
                 {
                   "condition": "minecraft:time_check",
+                  "clock": "minecraft:overworld",
                   "value": {
                     "min": 12542,
                     "max": 23459
@@ -45,6 +46,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": -540,
                 "max": 12541
@@ -62,6 +64,7 @@
               "terms": [
                 {
                   "condition": "minecraft:time_check",
+                  "clock": "minecraft:overworld",
                   "value": {
                     "min": 12542,
                     "max": 23459
@@ -121,6 +124,7 @@
               "terms": [
                 {
                   "condition": "minecraft:time_check",
+                  "clock": "minecraft:overworld",
                   "value": {
                     "min": 12542,
                     "max": 23459
@@ -145,6 +149,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": -540,
                 "max": 12541
@@ -260,6 +265,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": -540,
                 "max": 12541
@@ -302,6 +308,7 @@
             },
             {
               "condition": "minecraft:time_check",
+              "clock": "minecraft:overworld",
               "value": {
                 "min": -540,
                 "max": 12541
